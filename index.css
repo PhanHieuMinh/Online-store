@@ -1,0 +1,42 @@
+body{
+    background: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shoe{
+    text-align: center;
+    border:0px solid;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin-left: 125px;
+    background-color: white;
+    transition: transform ease 0.5s;
+}
+.shoe:hover{
+    
+    transform: scale(1.1);
+}
+.shoe:hover h1{
+    color: blue;
+}
+
+.shoe:hover p{
+    color: yellow;
+}
+.shoe img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+.shoe h1{
+    font-size: 20px;
+}
+
+.shoe p{
+    font-weight: bold;
+}

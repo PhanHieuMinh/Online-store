@@ -39,7 +39,7 @@ body{
     color:red;
     text-decoration: underline;
 }
-.social img{
+.social a img{
     height: 50px;
 }
 

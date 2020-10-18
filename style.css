@@ -22,19 +22,19 @@ body{
 
 .logo img{
     height: 50px;
-    
 }
 
 .menu-main ul{
     display: flex;
+    width: 1250px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 
 .menu-main ul li {
     list-style: none;
-    padding-left: 200px;
 }
 
 .menu-main ul li:hover{
@@ -58,7 +58,7 @@ body{
     border:0px solid;
     border-radius: 20px;
     width: 200px;
-    box-shadow: 15px 15px 5 px rgba(0,0,0,0.5);
+    box-shadow: 25px 20px 15px rgba(0,0,0,0.5);
     background-color: white;
     transition: transform ease 0.5s;
 }
@@ -121,14 +121,14 @@ footer p{
     
 }
 
-.Adidas-X{
+.Adidas{
     display: flex;
     text-align: center;
 
 }
 
-.Adidas-X img{
-    width: 925px;
+.Adidas img{
+    width: 850px;
     height: 750px;
 }
 
@@ -141,8 +141,14 @@ footer p{
     flex-direction: column;
     align-items: center;
 }
+
+.text h1{
+    font-size: 35px;
+    color: rgb(82, 8, 63);
+}
+
 .text select{
-    width: 50px;
+    width: 52px;
 }
 
 .text a{
@@ -156,6 +162,24 @@ footer p{
     transition: transform ease 0.5s;
 }
 
+
 .text a:hover{
     transform: scale(1.2);
+}
+
+
+.Info ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
+.Info ul li{
+    font-size: 18px;
+}
+
+.Info h1{
+    color: rgb(58, 2, 44);
+    font-size: 30px;
 }
